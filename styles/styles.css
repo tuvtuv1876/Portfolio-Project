@@ -1,7 +1,48 @@
 :root {
-  font-family: "Arizonia", cursive;
+  --secondary-font-family: "Arizonia", cursive;
+  --primary-font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font-family);
+}
+
+h1,
+h3,
+h4,
+h5 {
+  font-family: var(--secondary-font-family);
+}
+
+h2 {
+  color: #272142;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 160px 0;
+}
+
+.hero h1 {
+  font-size: 110px;
+  font-weight: 400;
+}
+
+.hero p {
+  font-weight: bold;
+  line-height: 54px;
+  font-size: 36px;
+}
+
+.hero button {
+  padding: 18px 46px;
+  font-size: 18px;
 }
