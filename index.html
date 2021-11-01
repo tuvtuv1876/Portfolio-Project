@@ -31,6 +31,32 @@
     <title>Homepage Tu Vy Ho</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="index.html">👩‍💻 Tu Vy Ho</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <p>Hi I am</p>
       <h1>Tu Vy Ho</h1>
@@ -39,11 +65,11 @@
     </div>
 
     <div class="work-section">
-      <p class="m-5 text-center">My most recent projects</p>
+      <h2 class="text-center">My most recent projects</h2>
       <div class="container-fluid">
         <div class="row">
-          <div class="col">
-            <img src="media/travel-taiwan.PNG" class="img-fluid" />
+          <div class="col d-none d-lg-block mb-5">
+            <img src="media/travel-taiwan.PNG" class="img-fluid rounded" />
           </div>
           <div class="col m-5">
             <h3 class="mt-5">Travel Taiwan Project</h3>
@@ -53,16 +79,61 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
+            <button class="btn btn-border-warning">Go to Taiwan App</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m-5">
+            <h3 class="mt-5">Weather App Project</h3>
+            <p class="mt-4 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
             <button class="btn btn-border-warning">Go to Weather App</button>
+          </div>
+          <div class="col d-none d-lg-block mb-5">
+            <img src="media/weather.PNG" class="img-fluid rounded" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <img src="media/portfolio.PNG" class="img-fluid rounded" />
+          </div>
+          <div class="col m-5">
+            <h3 class="mt-5">Portfolio App Project</h3>
+            <p class="mt-4 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="btn btn-border-warning">Go to Portfolio App</button>
           </div>
         </div>
       </div>
     </div>
     <br />
-    <div class="footer">
-      <i class="fab fa-instagram"></i>
-      <i class="far fa-envelope"></i>
-      <i class="fab fa-linkedin-in"></i>
+    <div class="footer text-center">
+      <a href="mailto:tu-vy.ho@hotmail.com" class="d-block mt-5 mb-2" id="email"
+        >tu-vy.ho@hotmail.com</a
+      >
+      <br />
+      <div class="icons-group">
+        <a href="#">
+          <i class="fab fa-instagram me-3 border" id="instagram"></i>
+        </a>
+        <a href="#">
+          <i
+            class="far fa-envelope border text-decoration-none"
+            id="envelop"
+          ></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-linkedin-in ms-3 p-10 border" id="linkedin"></i>
+        </a>
+      </div>
     </div>
   </body>
 </html>
