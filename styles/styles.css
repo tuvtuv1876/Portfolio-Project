@@ -1,6 +1,8 @@
 :root {
   --secondary-font-family: "Arizonia", cursive;
   --primary-font-family: "Poppins", sans-serif;
+  --primary-color: #ffca2c;
+  --secondary-color: #f3f3f3;
 }
 
 body {
@@ -45,4 +47,27 @@ button {
 .hero button {
   padding: 18px 46px;
   font-size: 18px;
+}
+
+.work-section h3 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.work-section p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.btn-border-warning {
+  color: black;
+  border: 2px solid var(--primary-color);
+}
+
+.work-section button {
+  font-size: 16px;
+  padding: 18px 25px;
+}
+
+@media (max-width: 900px) {
 }
