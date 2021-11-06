@@ -24,7 +24,8 @@ h2 {
 }
 
 button {
-  padding: 18px 46px;
+  padding: 18px 46px !important;
+  font-size: 18px;
 }
 
 .logo {
@@ -87,11 +88,6 @@ button {
   font-weight: bold;
   line-height: 54px;
   font-size: 36px;
-}
-
-.hero button {
-  padding: 18px 46px;
-  font-size: 18px;
 }
 
 .work-section h2 {
