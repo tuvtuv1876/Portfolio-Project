@@ -53,18 +53,26 @@ button {
   color: #000;
 }
 
-.about-hero {
+.content-hero {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.about-hero h1 {
+.content-hero h1 {
   font-size: 64px;
 }
 
-.about-hero h2 {
+.content-hero h2 {
   font-size: 18px;
   font-weight: bold;
+}
+
+.content-hero h3 {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+}
+
+.content-hero img {
 }
 
 .hero {
