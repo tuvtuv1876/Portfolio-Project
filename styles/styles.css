@@ -109,11 +109,64 @@ button {
 .btn-border-warning {
   color: black;
   border: 2px solid var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-border-warning:hover {
+  background-color: var(--primary-color);
+  color: black;
 }
 
 .work-section button {
   font-size: 16px;
   padding: 18px 25px;
+}
+
+footer .footer-box {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  background-color: var(--secondary-color);
+  padding: 40px 110px;
+  border-radius: 20px;
+}
+
+footer .footer-box h4 {
+  font-size: 48px;
+}
+
+footer .footer-box p {
+  font-size: 18px;
+}
+
+footer .icons-group a {
+  margin: 18px;
+  color: #000;
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .icons-group a:hover {
+  background-color: var(--primary-color);
+  font-size: 19px;
+}
+
+footer .email-link a {
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: var(--primary-color) !important;
 }
 
 @media (max-width: 900px) {
